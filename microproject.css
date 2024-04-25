@@ -1,0 +1,329 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+.logo{
+  position: absolute;
+  margin-left: 430px;
+}
+.head{
+  position: absolute;
+  text-align: center;
+  margin-left: 550px;
+
+}
+.head > h1{
+ color: blue;
+}
+.header {
+  width: 1800px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 1800px;
+  height: auto;
+  border: 1px solid black;
+  margin-left: 3px;
+}
+.Guider, .department, .student > h2{
+  color: red;
+}
+.department{
+  margin-left: 450px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.student{
+  margin: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Guider{
+  margin: 30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  position: absolute;
+  margin-top: 270px;
+}
+
+.flag {
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* India's Flag*/
+
+#India > .box1 {
+  width: 300px;
+  height: 70px;
+  background-color: #ff671f;
+}
+#India > .box2 {
+  width: 300px;
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#India > .box3 {
+  width: 300px;
+  height: 70px;
+  background-color: #046a38;
+}
+
+.sindia {
+  width: auto;
+  height: 65px;
+}
+.sindia > img {
+  height: 70px;
+  width: auto;
+}
+
+/* Uganda's Flag*/
+
+#Uganda > .box > .upper {
+  width: 300px;
+  height: 35px;
+  background-color: #000000;
+}
+#Uganda > .box > .midale {
+  width: 300px;
+  height: 35px;
+  background-color: #fcdc04;
+}
+#Uganda > .box > .lower {
+  width: 300px;
+  height: 35px;
+  background-color: #d90000;
+}
+
+.suganda {
+  position: absolute;
+  margin-top: 3px;
+}
+
+.suganda > img {
+  height: 70px;
+  width: auto;
+}
+
+/* Curacao's Flag*/
+
+#Curacao > .box1 {
+  width: 300px;
+  height: 88px;
+  background-color: #002b7f;
+}
+#Curacao > .box2 {
+  width: 300px;
+  height: 35px;
+  background-color: #f9e814;
+}
+#Curacao > .box3 {
+  width: 300px;
+  height: 88px;
+  background-color: #002b7f;
+}
+
+.scuracao {
+  position: absolute;
+  margin-right: 190px;
+  margin-top: 120px;
+}
+.scuracao > img {
+  height: 50px;
+  width: auto;
+}
+
+/* Belarus's Flag*/
+
+#Belarus > .box1 {
+  width: 300px;
+  height: 130px;
+  background-color: #d22730;
+}
+#Belarus > .box2 {
+  width: 300px;
+  height: 80px;
+  background-color: #00af66;
+}
+.sbelarus {
+  position: absolute;
+  margin-right: 240px;
+  margin-top: 3px;
+}
+.sbelarus > img {
+  height: 210px;
+  width: 60px;
+}
+
+/* Croatia's Flag*/
+
+#Croatia > .box1 {
+  width: 300px;
+  height: 70px;
+  background-color: #ff0000;
+}
+#Croatia > .box2 {
+  width: 300px;
+  height: 70px;
+  background-color: #ffffff;
+}
+#Croatia > .box3 {
+  width: 300px;
+  height: 70px;
+  background-color: #012169;
+}
+
+.scroatia {
+  position: absolute;
+}
+.scroatia > img {
+  height: 120px;
+  width: auto;
+}
+
+/* Laos's Flag*/
+
+#Laos > .box1 {
+  width: 300px;
+  height: 60px;
+  background-color: #ce1126;
+}
+#Laos > .box2 {
+  width: 300px;
+  height: 90px;
+  background-color: #002868;
+}
+#Laos > .box3 {
+  width: 300px;
+  height: 60px;
+  background-color: #ce1126;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 50%;
+}
+
+/* Canada's Flag*/
+
+#Canada {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#Canada > .box1 {
+  width: 70px;
+  height: 210px;
+  background-color: #d80621;
+}
+#Canada > .box2 {
+  width: 160px;
+  height: 210px;
+  background-color: #ffffff;
+}
+#Canada > .box3 {
+  width: 70px;
+  height: 210px;
+  background-color: #d80621;
+}
+
+.scanada {
+  position: absolute;
+}
+.scanada > img {
+  height: 140px;
+  width: auto;
+}
+
+/* SierraLeone's Flag*/
+
+#SierraLeone > .box1 {
+  width: 300px;
+  height: 70px;
+  background-color: #1eb53a;
+}
+#SierraLeone > .box2 {
+  width: 300px;
+  height: 70px;
+  background-color: #ffffff;
+}
+#SierraLeone > .box3 {
+  width: 300px;
+  height: 70px;
+  background-color: #0072c6;
+}
+
+/* IvoryCoast's Flag*/
+
+#IvoryCoast {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#IvoryCoast > .box1 {
+  width: 100px;
+  height: 210px;
+  background-color: #ff8200;
+}
+#IvoryCoast > .box2 {
+  width: 100px;
+  height: 210px;
+  background-color: #ffffff;
+}
+#IvoryCoast > .box3 {
+  width: 100px;
+  height: 210px;
+  background-color: #009a44;
+}
+
+/* Kyrgyzstan's Flag*/
+
+#Kyrgyzstan > .box {
+  width: 300px;
+  height: 210px;
+  background-color: #ef3340;
+}
+.skyrgyzstan {
+  position: absolute;
+}
+.skyrgyzstan > img {
+  height: 150px;
+  width: auto;
+}
